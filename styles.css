@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+header {
+    width: 100%;
+    background-color: #212121;
+    color: #ffffff;
+}
+h1, h2, p {
+    padding: 12px 12px 8px;
+}
+nav {
+    padding: 12px 0px;
+    background-color: #ddd;
+}
+* a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #5f5f5f;
+    cursor: pointer;
+    padding: 16px 8px;
+}
+a:hover {
+    background-color: #212121;
+}
+* li {
+    list-style:inside;
+    list-style-type: square;
+    padding: 6px;
+}
+section {
+    margin: 8px auto; 
+    width: 80%;
+    background-color: #ddd;
+}
+
+/*
+make the footer stick to the bottom of the body
+*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+footer {
+    background-color: #212121;
+    color: #5f5f5f;
+    margin-top: auto;
+}
